@@ -7,7 +7,7 @@ function Featured() {
     <section id="collections" className="bg-white">
       <div className="container mx-auto px-3 space-y-10 justify-items-start py-16 flex flex-col items-center md:flex-row-reverse md:h-3/5 md:justify-end">
         <div className=" max-w-xs text-center md:text-left md:ml-6">
-          <h2 className="text-4xl">Des looks pour tous les jours</h2>
+          <h2 className="text-4xl text-dark">Des looks pour tous les jours</h2>
           <a
             href="https://www.instagram.com/flairshopbesancon"
             alt="boutique"
