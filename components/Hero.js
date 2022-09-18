@@ -3,7 +3,7 @@ import Image from "next/image";
 function Hero() {
   return (
     <div
-      className="h-screen bg-dark pt-28 flex items-center bg-right"
+      className="h-screen bg-dark pt-28 flex items-center bg-right relative"
       // style={{ backgroundImage: "url('/hero-bg.jpg')" }}
     >
       <Image

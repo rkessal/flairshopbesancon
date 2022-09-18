@@ -68,7 +68,7 @@ function About() {
         <div className=" max-h-7 mx-10 mr-10 mt-8">
           <Marquee speed={50}>
             {marques.map(({ id, label, img }) => (
-              <div className="mx-14">
+              <div key={label} className="mx-14">
                 <Image
                   layout="intrinsic"
                   height={35}
