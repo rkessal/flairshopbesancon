@@ -20,9 +20,7 @@ function Footer() {
               href="#collections"
               aria-label="collections"
               className=" text-bright hover:text-white"
-            >
-              Collections
-            </a>
+            ></a>
             <a
               href="#about"
               aria-label="about"
@@ -38,14 +36,14 @@ function Footer() {
               Contact
             </a>
           </div>
-          <a
-            aria-label="boutique"
-            href="https://instagram.com/flairshopbesancon"
-            className="bg-bright px-20 py-5 text-dark  "
-          >
-            Boutique
-          </a>{" "}
         </div>
+        <a
+          aria-label="boutique"
+          href="https://instagram.com/flairshopbesancon"
+          className="bg-bright px-20 py-5 text-dark"
+        >
+          Boutique
+        </a>
       </div>
       <div className="flex flex-col items-center md:items-end space-y-6">
         <div className="flex flex-row space-x-2 md:hidden">

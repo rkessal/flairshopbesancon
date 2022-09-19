@@ -38,7 +38,11 @@ function Header() {
           className="md:hidden"
           onClick={() => setNav((prev) => !prev)}
         >
-          {nav ? <MdClose size={25} /> : <AiOutlineMenu size={25} />}
+          {nav ? (
+            <MdClose className="text-dark" size={25} />
+          ) : (
+            <AiOutlineMenu className="text-dark" size={25} />
+          )}
         </button>
         <div
           onClick={() => setNav(false)}
